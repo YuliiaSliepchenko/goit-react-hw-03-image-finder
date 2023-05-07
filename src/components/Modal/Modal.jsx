@@ -30,7 +30,7 @@ const modalRoot = document.querySelector('#modal-root');
     render() {
         return createPortal(
             <div onClick={this.handleBackdropClick} className={s.Overlay} >
-                <div onClick={this.props.closeModal} className={s.Modal}>
+                <div className={s.Modal}>
                     <img src={this.props.imageURL} alt={this.props.imageURL} />
                 </div>
             </div>,
