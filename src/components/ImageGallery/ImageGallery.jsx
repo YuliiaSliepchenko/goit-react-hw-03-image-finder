@@ -23,10 +23,6 @@ export default function ImageGallery({ images, openModal }) {
 ImageGallery.propTypes = {
     images:PropTypes.array,
     openModal:PropTypes.func,
-    id:PropTypes.number,
-    webformatURL:PropTypes.string,
-    tags:PropTypes.string,
-    largeImageURL:PropTypes.string,
    }   
       
     
